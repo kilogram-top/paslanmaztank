@@ -103,6 +103,7 @@ html{
     max-width: 100%;
     height: auto;
   }
+  .card{padding:16px;}
   article img{
   margin: 0 auto 8px auto;
   }
@@ -215,6 +216,14 @@ html, body{
   margin:0;padding:0;
 }
 *{box-sizing:border-box;}
+.header{
+    background: var(--txt-main);
+    color: var(--bg-main);
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
 article p{
   margin: 18px 0;
   max-width: 820px;
@@ -271,8 +280,11 @@ article h3{
       Site İsmi
   </div>
   <div class="main-grid row">
-    <div class="footer box col col-mb-12 col-pc-4">
-      <div class="card">footer</div>
+    <div class="left box col col-mb-12 col-pc-4">
+      <div class="card">
+          <b>About Me</b><br>
+          <p id="about-me">I am etc etc etc</p>  
+      </div>
     </div>
     <div class="main-container box col col-mb-12 col-pc-8">
       <div class="card">
