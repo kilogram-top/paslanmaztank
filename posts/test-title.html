@@ -223,21 +223,21 @@ article p{
 article h1{
   font-size:1.867rem;
   font-weight:300;
-  margin:-56px 0 16px 0;
-  padding-top: 72px;
+  margin:16px 0 16px 0;
+  padding-top: 16px;
 }
 
 article h2{
   font-size:1.467rem;
   font-weight:300;
-  margin:-12px 0 12px 0;
-  padding-top:72px;
+  margin:12px 0 12px 0;
+  padding-top:12px;
 }
 
 article h3{
   font-size:1.2rem;
-  margin:-12px 0 12px 0;
-  padding-top:72px;
+  margin:12px 0 12px 0;
+  padding-top:8px;
 }
 
 @media (min-width: 768px){ /* NON-MOBILE */
@@ -245,17 +245,18 @@ article h3{
 article h1{
   font-size:2.4rem;
   font-weight:300;
-  margin:-24px 0 48px 0;
+  margin:24px 0 48px 0;
 }
 article h2{
   font-size:1.867rem;
   font-weight:300;
-  margin:-36px 0 24px 0;
+  margin:20px 0 24px 0;
 }
 
 article h3{
   font-size:1.467rem;
-  margin:-50px 0 16px 0;
+  margin:10px 0 10px 0;
+  padding-top:8px;
 }
 }
 </style>
@@ -269,8 +270,11 @@ article h3{
   <div class="header">
       Site İsmi
   </div>
-  <div class="main-grid">
-    <div class="main-container box">
+  <div class="main-grid row">
+    <div class="footer box col col-mb-12 col-pc-4">
+      <div class="card">footer</div>
+    </div>
+    <div class="main-container box col col-mb-12 col-pc-8">
       <div class="card">
 
         <section>
@@ -289,7 +293,7 @@ article h3{
         </section>
       </div>
     </div>
-    <div class="footer box">
+    <div class="footer box col col-mb-12">
       <div class="card">footer</div>
     </div>
   </div>
