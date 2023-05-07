@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "title": "5 Essential Tips for Successful Blogging",
+      "slug": "5-essential-tips-for-successful-blogging",
+      "image_url": "/img/c1.png"
+    },
+    {
+      "title": "The Power of Storytelling: Engaging Your Readers",
+      "slug": "the-power-of-storytelling-engaging-your-readers",
+      "image_url": "/img/c1.png"
+    },
+    {
+      "title": "Mastering Social Media: Boosting Your Blog's Visibility",
+      "slug": "mastering-social-media-boosting-your-blogs-visibility",
+      "image_url": "/img/c1.png"
+    },
+    {
+      "title": "SEO Strategies: How to Optimize Your Blog for Search Engines",
+      "slug": "seo-strategies-how-to-optimize-your-blog-for-search-engines",
+      "image_url": "/img/c1.png"
+    },
+    {
+      "title": "The Art of Monetization: Turning Your Blog into a Business",
+      "slug": "the-art-of-monetization-turning-your-blog-into-a-business",
+      "image_url": "/img/c1.png"
+    }
+  ]
+}
