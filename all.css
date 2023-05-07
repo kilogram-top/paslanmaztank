@@ -1,0 +1,13 @@
+body{
+    /* SET MAIN DEFAULTS */
+    --primary:#78002e;
+
+    --bg-main: #fff7ff;
+    --txt-main: #382f5a;
+
+    --primary-bright:#ad1457;
+    --primary-light:#e35183;
+    --primary-extra-light:#f06292;
+    --primary-extra-extra-light:#ff94c2;
+
+}

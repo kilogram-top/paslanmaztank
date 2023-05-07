@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="tr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <meta name="description" content="Page description">
-
+<meta property="og:site_name" content="Paslanmaz Tank">
 <meta property="og:title" content="Test Title">
 <meta property="og:description" content="Page description">
 <meta property="og:image" content="https://paslanmaztank.kilogram.top/posts/test-title.jpg">
@@ -54,225 +54,11 @@
 }
 </script>
 <link rel="icon" href="/favicon.ico">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:site_name" content="Paslanmaz Tank">
-<style>
-body{
-/* SET MAIN DEFAULTS */
---primary:#78002e;
-
---bg-main: #fff7ff;
---txt-main: #382f5a;
-
---primary-bright:#ad1457;
---primary-light:#e35183;
---primary-extra-light:#f06292;
---primary-extra-extra-light:#ff94c2;
-
-}
-
-
-/* GENERAL SETTINGS */
-html{
-    box-sizing:border-box;
-    line-height: 1.15; /* 1 */
-    font-size: 15px;
-  }
-  *, *:before, *:after {
-    box-sizing: border-box;
-  }
-
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-    margin: 0;
-    padding: 0;
-    color: var(--txt-main);
-  }
-  ol, ul{
-    padding-left: 16px;
-  }
-  body{
-    background: none;
-    border-radius: 0;
-    outline: 0;
-  }
-
-  body{font-family: 'Roboto Serif', serif;background-color: var(--bg-main);line-height: 1.8;}
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  .card{padding:16px;}
-  article img{
-  margin: 0 auto 8px auto;
-  }
-
-  a:not(.btn):link, a:not(.btn):visited, a:not(.btn):active{
-    color:var(--primary-bright);
-  }
-  a.btn, a.btn:link, a.btn:visited, a.btn:active{
-    text-decoration: none;
-  }
-  a:active, a:hover{
-    outline: 0;
-  }
-  .container {
-    margin: 0 16px;
-    width: auto;
-  }
-  aside,
-  details,
-  main,
-  summary,
-  nav{
-    display: block;
-  }
-  /* BUTTONS AND ALERTS */
-  .btn {
-    border-radius: 4px;
-    display: inline-block;
-    margin: 2px;
-    padding: 9px 12px 6px 12px;
-    text-align: center;
-    cursor: pointer;
-    background-color: var(--primary);
-    color: var(--primary-extra-extra-light);
-    border-color:var(--primary);
-    transition:background-color 0.3s ease;
-  }
-
-  .btn:hover{
-    background-color: var(--primary-bright);
-  }
-  .main-grid {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
-  /* GRID SYSTEM */
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: normal;
-    align-items: normal;
-    align-content: normal;
-    margin:0 0 0 0;
-    padding:0 0 0 0;
-  }
-
-  .col{
-    flex:1;
-    margin:0 0 0 0;
-    align-self: stretch;
-    flex-basis: auto;
-  }
-
-
-  .col-mb-1{width:8.33333%;}
-  .col-mb-2{width:16.66666%;}
-  .col-mb-3{width:25%;}
-  .col-mb-4{width:33.33333%;}
-  .col-mb-5{width:41.66666%;}
-  .col-mb-6{width:50%;}
-  .col-mb-7{width:58.33333%;}
-  .col-mb-8{width:66.66666%;}
-  .col-mb-9{width:75%;}
-  .col-mb-10{width:83.33333%;}
-  .col-mb-11{width:91.66666%;}
-  .col-mb-12{width: 100%;}
-
-  @media (min-width : 768px) and (max-width : 1023px){
-      .col-tb-1{width:8.33333%;}
-      .col-tb-2{width:16.66666%;}
-      .col-tb-3{width:25%;}
-      .col-tb-4{width:33.33333%;}
-      .col-tb-5{width:41.66666%;}
-      .col-tb-6{width:50%;}
-      .col-tb-7{width:58.33333%;}
-      .col-tb-8{width:66.66666%;}
-      .col-tb-9{width:75%;}
-      .col-tb-10{width:83.33333%;}
-      .col-tb-11{width:91.66666%;}
-      .col-tb-12{width: 100%;}
-
-  }
-
-  @media (min-width : 1024px){
-  .col-pc-1{width:8.33333%;}
-  .col-pc-2{width:16.66666%;}
-  .col-pc-3{width:25%;}
-  .col-pc-4{width:33.33333%;}
-  .col-pc-5{width:41.66666%;}
-  .col-pc-6{width:50%;}
-  .col-pc-7{width:58.33333%;}
-  .col-pc-8{width:66.66666%;}
-  .col-pc-9{width:75%;}
-  .col-pc-10{width:83.33333%;}
-  .col-pc-11{width:91.66666%;}
-  .col-pc-12{width: 100%;}
-  }
-
-
-
-html, body{
-  margin:0;padding:0;
-}
-*{box-sizing:border-box;}
-.header{
-    background: var(--txt-main);
-    color: var(--bg-main);
-    padding: 16px;
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 12px;
-}
-article p{
-  margin: 18px 0;
-  max-width: 820px;
-}
-
-article h1{
-  font-size:1.867rem;
-  font-weight:300;
-  margin:16px 0 16px 0;
-  padding-top: 16px;
-}
-
-article h2{
-  font-size:1.467rem;
-  font-weight:300;
-  margin:12px 0 12px 0;
-  padding-top:12px;
-}
-
-article h3{
-  font-size:1.2rem;
-  margin:12px 0 12px 0;
-  padding-top:8px;
-}
-
-@media (min-width: 768px){ /* NON-MOBILE */
-
-article h1{
-  font-size:2.4rem;
-  font-weight:300;
-  margin:24px 0 48px 0;
-}
-article h2{
-  font-size:1.867rem;
-  font-weight:300;
-  margin:20px 0 24px 0;
-}
-
-article h3{
-  font-size:1.467rem;
-  margin:10px 0 10px 0;
-  padding-top:8px;
-}
-}
-</style>
-
+<link type="text/css" rel="stylesheet" href="/all.css">
+<link type="text/css" rel="stylesheet" href="/submodule/all.css">
+<script src="/conf.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 
@@ -283,15 +69,10 @@ article h3{
       <a href="/">Site İsmi</a>
   </div>
   <div class="main-grid row">
-    <div class="left box col col-mb-12 col-pc-4">
-      <div class="card">
-          <b>About Me</b><br>
-          <p id="about-me">I am etc etc etc</p>  
-      </div>
+    <div id="left" class="left side box col col-mb-0 col-tb-0 col-pc-4">
     </div>
     <div class="main-container box col col-mb-12 col-pc-8">
       <div class="card">
-
         <section>
             <article class="full-post">
                 <h1>Test Title</h1>
@@ -299,7 +80,14 @@ article h3{
 
                 </div>
                 <div id="content">
-                  aabb
+                    <img src="/img/c1.png" alt="Test title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu sapien ultricies, egestas velit a, interdum nibh. Quisque tristique diam vel lectus rhoncus fringilla eu a augue. Maecenas nec lorem vehicula, semper tortor et, laoreet nunc. Donec tristique sem sit amet turpis auctor placerat. Praesent malesuada quam tortor, sed ullamcorper sapien mollis quis. Aliquam dolor augue, efficitur a molestie cursus, euismod ac eros. Etiam et metus vel justo interdum ultrices. Suspendisse potenti. Pellentesque porttitor, tellus in tempus mollis, tortor dolor volutpat mi, et imperdiet leo dui eget nibh. Donec bibendum, lorem nec porta molestie, ipsum nulla lacinia elit, nec finibus tellus lorem hendrerit orci. Quisque aliquet non felis a vestibulum. Fusce imperdiet pulvinar tellus non lobortis. Proin varius turpis mi, non pulvinar sapien ullamcorper sit amet. Nulla gravida arcu nulla, a auctor elit viverra at. Sed faucibus sapien in elementum ornare.
+                    <br>
+                    <div class="article-inner"></div>
+                    <br>
+                    Suspendisse sit amet lectus eu lorem tristique rutrum nec efficitur ipsum. In non eros ac massa suscipit porta. Ut non libero feugiat, convallis ex sed, suscipit sem. Donec molestie enim sed mauris porta tincidunt. Praesent blandit urna eget feugiat bibendum. Mauris tempor in risus vel posuere. Aenean ultricies eget lectus faucibus cursus. Proin viverra sem quis rutrum iaculis. Aenean tellus odio, cursus ac lacinia at, scelerisque in metus. Aliquam convallis viverra tellus.
+                    <br><br>
+                    Quisque dignissim ex at ante porttitor tristique. Maecenas risus magna, aliquam luctus orci vel, consequat sollicitudin risus. Nulla facilisi. Donec consequat ipsum eu lacus egestas, ultricies luctus nunc lacinia. Nam dignissim elit mauris, at fringilla felis blandit id. Aliquam lectus libero, vestibulum ac laoreet vitae, semper eu velit. Quisque ultricies et mi eu dignissim. Donec et porttitor tellus. Cras est nibh, iaculis id tempor ut, finibus ut elit. Morbi ut metus purus. Phasellus aliquam tempor nisi, in porta odio consequat vehicula. Duis mattis diam lectus, eget aliquet felis tincidunt eu. Fusce et nulla et turpis bibendum maximus. Nunc vestibulum porttitor nulla.
                 </div>
                 <div id="article-bottom">
 
@@ -308,10 +96,12 @@ article h3{
         </section>
       </div>
     </div>
+    <div id="right" class="right side box col col-mb-12 col-tb-12 col-pc-0">
+    </div>
     <div class="footer box col col-mb-12">
       <div class="card">footer</div>
     </div>
   </div>
-
+<script src="/submodule/all.js"></script>
 </body>
 </html>
